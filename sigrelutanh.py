@@ -22,7 +22,7 @@ for act, col in zip(activations, color):
     t_time = end_time - start_time
     print("Activation", act.upper())
     print("Time Taken:", t_time)
-    print("Accurasy:", acс)
+    print("Accurasy:", acc)
     print("-"*30)
     plt.plot(model.loss_curve_,label=act.upper(),color=col)
 
